@@ -10,4 +10,12 @@
 	  <ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OS1.Data\OS1.Data.csproj" />
+  </ItemGroup>
+
 </Project>
